@@ -1,0 +1,15 @@
+{
+  "name": "PTP-modules-ble-advertise",
+  "version": "0.0.0",
+  "description": "Example of ble advertise working on portable tessel platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nathan Lintz",
+  "license": "ISC",
+  "dependencies": {
+    "ble-ble113a": "^0.1.11",
+    "ptp-tessel": "*"
+  }
+}
