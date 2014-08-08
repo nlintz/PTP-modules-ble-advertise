@@ -11,5 +11,8 @@
   "dependencies": {
     "ble-ble113a": "^0.1.11",
     "ptp-tessel": "*"
+  }, 
+  "scripts" : {
+    "start": "sudo node index.js"
   }
 }

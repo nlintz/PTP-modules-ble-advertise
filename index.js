@@ -9,7 +9,7 @@ connected.
 *********************************************/
 
 var tessel = require('ptp-tessel');
-var ble = require('../').use(tessel.port['A']); // Replace '../' with 'ble-ble113a' in your own code
+var ble = require('ble-ble113a').use(tessel.port['A']); // Replace '../' with 'ble-ble113a' in your own code
 
 var interval;
 
